@@ -1,0 +1,22 @@
+.header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(51, 51, 50, 0.699);
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    justify-content: space-between;
+}
+.film {
+    width: 35px;
+    height: 35px;
+    margin-top: 10px;
+    
+}
+.header h1 {
+    color: crimson;
+    font-size: 50px;
+    margin: 0;
+}

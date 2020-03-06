@@ -1,0 +1,43 @@
+.videoBody {
+    position: relative;
+    display: grid;
+    grid-template-areas: "video";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    transition: all 1s ease-in-out;
+}
+.video {
+    width: 400px;
+    height: 200px;
+    cursor: pointer;
+    transition: 0.5s;
+    object-fit: cover;
+    margin: 1rem;
+    grid-area: video;
+    pointer-events: all;
+    transition: all 1s ease-in-out;
+}
+.video:focus {
+    outline: none;
+}
+/*.video::-webkit-media-controls {
+    display: none;
+} */
+@media only screen and (orientation: portrait) {
+    .video:hover {
+        box-shadow: none;
+    }
+}
+
+.videoName {
+    cursor: pointer;
+    grid-area: video;
+    margin-left: 20px;
+    color: rgba(245, 245, 245, 0.61);
+    text-transform: uppercase;
+    transition: 0.4s;
+    align-self: stretch;
+    z-index: 0;
+    pointer-events: none;
+}
+

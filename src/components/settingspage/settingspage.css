@@ -1,0 +1,64 @@
+.settingspage {
+    position: fixed;
+    top: 70px;
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.514);
+    color: rgb(230, 223, 223);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.settingspage h2 {
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+    font-size: 3rem;
+    border-bottom: 2px rgb(161, 160, 160) solid;
+}
+.savevid {
+    
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    margin-top: 5%;
+    width: 70%;
+    height: 20%;
+    justify-content: space-between;
+    max-width: 400px;
+    
+}
+
+#newvideo {
+    align-self: center;
+    height: 0.1px;
+    opacity: 0;
+}
+.fileupload {
+    width: 100%;
+    text-align: center;
+    align-self: center;
+    padding: 1rem 0;
+    cursor: pointer;
+    background-color: rgb(187, 61, 61);
+    border: solid 2px rgb(187, 61, 61);
+    transition: 0.3s;
+}
+.fileupload:hover {
+    background-color: rgba(187, 61, 61, 0.425);
+}
+#upload {
+    align-self: center;
+    width: 100%;
+    cursor: pointer;
+    background-color: rgb(61, 168, 187);
+    border: solid 2px rgb(61, 168, 187);
+    color: whitesmoke;
+    height: 20rem;
+    cursor: pointer;
+    margin: 1rem;
+    transition: 0.3s;
+}
+#upload:hover {
+    background-color: rgba(61, 168, 187, 0.486) ;
+}

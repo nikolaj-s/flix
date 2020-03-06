@@ -1,0 +1,34 @@
+.videoplayer {
+    margin-top: 6rem;
+    position: relative;
+    grid-area: videoplayer;
+    width: 100%;
+    object-fit: contain;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 100%;
+    
+}
+.vidplayer {
+    position: relative;
+    object-fit: cover;
+    width: 95%;
+    margin: 1rem;
+    cursor: pointer;
+}
+.vidplayer:focus{
+    outline: 0;
+}
+.vidplayerTitle {
+    font-size: 1.5rem;
+    color: whitesmoke;
+    text-transform: capitalize;
+    margin: 1rem;
+}
+.vidplayerTitle::after {
+    display: block;
+  content: '';
+  height: 2px;
+  background-color: rgba(126, 126, 126, 0.822);
+  width: 100%;
+}

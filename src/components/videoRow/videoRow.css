@@ -1,0 +1,13 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0 5rem 0;
+    margin: 0 2rem 5rem 0;
+    justify-content: center;
+    transition: 1s all ease-in-out;
+    clear: both;
+    grid-area: videolist;
+    overflow-x: scroll;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.288);
+}

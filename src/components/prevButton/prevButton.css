@@ -1,0 +1,7 @@
+.prevButton {
+    color: white;
+    cursor: pointer;
+}
+.prevButton:hover {
+    color: rgba(255, 255, 255, 0.459);
+}
